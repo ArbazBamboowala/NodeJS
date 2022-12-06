@@ -1,0 +1,43 @@
+body{
+  width: 800px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  background: url("/public/images/sky.jpg");
+  background-size: cover;
+}
+
+.ghost-button,
+p {
+    color: #009688;
+    background: #fff;
+    border: 1px solid #009688;
+    font-size: 17px;
+    padding: 7px 12px;
+    font-weight: normal;
+    margin: 6px 0;
+    margin-right: 12px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 120px;
+  }
+  .ghost-input,
+  p
+  {
+    color: #009688;
+    background: #fff;
+    border: 1px solid #009688;
+    font-size: 17px;
+    padding: 7px 12px;
+    font-weight: normal;
+    margin: 6px 0;
+    margin-right: 12px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 120px;
+  }
+  .ghost-input:focus{
+    border-bottom: 1px solidcolor #ddd;
+  }
+ 
